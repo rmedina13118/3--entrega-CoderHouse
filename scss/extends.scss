@@ -1,0 +1,16 @@
+//button primary
+
+.button-primary {
+    margin-top: 30px;
+    background-color: $primary-color !important;
+    width: auto !important;
+    border-radius: 25px !important;
+    color: #01102C !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.75) !important;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -17,11 +17,11 @@
     <header>
         <nav class="navbar custom-navbar navbar-expand-lg container-fluid">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="./src/images/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <img class="icon-menu" src="./images/menu.svg" alt="icon-menu">
+                    <img class="icon-menu" src="./src/images/menu.svg" alt="icon-menu">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -39,7 +39,7 @@
 
         <!-- Hero section -->
         <div class="banner">
-            <img src="./images/banner-home.png" alt="Banner">
+            <img src="./src/images/banner-home.png" alt="Banner">
             <div class="banner-content">
                 <h1 class="title-banner text-center">Empieza tu viaje musical y <span class="title-mayus">haz que cada
                         nota
@@ -50,18 +50,29 @@
             <div class="featured-products">
                 <h2 class="subtitle">Productos destacados</h2>
                 <div class="grid-products">
-                    <img class="piano" src="./images/products/nord-piano.jpg" alt="nord-piano">
-                    <img class="guitar" src="./images/products/taylor-guitar.png" alt="taylor-guitar">
-                    <img class="sax" src="./images/products/yamaha-sax.png" alt="yamaha-sax">
+                    <img class="piano" src="./src/images/products/nord-piano.jpg" alt="nord-piano">
+                    <img class="guitar" src="./src/images/products/taylor-guitar.png" alt="taylor-guitar">
+                    <img class="sax" src="./src/images/products/yamaha-sax.png" alt="yamaha-sax">
                 </div>
-                <a class="btn btn-warning" href="./pages/products.html">¡Compra Ahora!</a>
+                <a class="btn btn-warning" href="./pages/products.html">¡Ver mas!</a>
+            </div>
+            <div class="container-video">
+                <video class="mobile-video" src="./src/videos/video_home-mobile.mp4" muted loop playsinline
+                    alt="ukelele"></video>
+                <div class="video-title">
+                    <h1 class="inside-text text-center">
+                        Haz de tus momentos en familia <span class="title-mayus">Inolvidables</span>
+                    </h1>
+                    <a class="btn btn-warning" href="./pages/products.html">¡Comprar ahora!</a>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <hr>
         <div>
-            <p>© RichCode | 2024</p>
+            <p class="name-market text-center">Copyright © 2024 Musical House</p>
+            <hr>
+            <p class="name-dev text-center"><span>Developed by:</span> RichCode &lt;/&gt;</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
