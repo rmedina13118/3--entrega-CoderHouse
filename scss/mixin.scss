@@ -1,0 +1,17 @@
+//mixin.scss   
+
+//Mixin para hovers
+@mixin hover-button-styles($transform-size: null, $bg-color: null, $text-color) {
+    &:hover {
+        @if $bg-color {
+            background: $bg-color;
+        }
+
+        @if $text-color {
+            color: $text-color;
+        }
+
+        transform: $transform-size;
+        cursor:pointer
+    }
+}

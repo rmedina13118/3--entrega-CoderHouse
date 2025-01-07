@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
-    <title>About us - E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Home | Musical House</title>
 </head>
 
 <body>
     <header>
-        <img src="../images/logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="#">About us</a></li>
-            </ul>
+        <nav class="navbar custom-navbar navbar-expand-lg container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../src/images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img class="icon-menu" src="../src/images/menu.svg" alt="icon-menu">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" href="../pages/products.html">Tienda virtual</a>
+                        <a class="nav-link active" href="../pages/about-us.html">Sobre nosotros</a>
+                        <a class="nav-link border-0" href="../pages/location.html">visítanos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -31,18 +43,22 @@
                     quam, nobis voluptatum deleniti aspernatur modi.</p>
             </div>
 
-        <div>
-            <button><a href="contact.html">Contact us</a></button>
-            <button><a href="location.html">Location</a></button>
-        </div>
+            <div>
+                <button><a href="contact.html">Contact us</a></button>
+                <button><a href="location.html">Location</a></button>
+            </div>
         </section>
     </main>
     <footer>
-        <hr>
         <div>
-            <p>© RichCode | 2024</p>
+            <p class="name-market text-center">Copyright © 2024 Musical House</p>
+            <hr>
+            <p class="name-dev text-center"><span>Developed by:</span> RichCode &lt;/&gt;</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
