@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Home | Musical House</title>
+    <title>¿Quienes somos? | Musical House</title>
 </head>
 
 <body>
@@ -25,27 +25,38 @@
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         <a class="nav-link" href="../pages/products.html">Tienda virtual</a>
                         <a class="nav-link active" href="../pages/about-us.html">Sobre nosotros</a>
-                        <a class="nav-link border-0" href="../pages/location.html">visítanos</a>
+                        <a class="nav-link" href="../pages/contact.html">Contacto</a>
+                        <a class="nav-link border-bottom-0 " href="../pages/location.html">Visítanos</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-            <img src="../images/banner-abot-us.jpg" alt="">
+    <main class="about">
+        <!-- Hero section -->
+        <div class="banner">
+            <video class="banner-about" src="../src/videos/video_hero_about.mp4" muted loop playsinline autoplay
+                alt="banner_about"></video>
+            <div class="banner-content">
+                <h1><span class="title-banner">¿Quienes</span><span class="title-mayus fs-4 d-block">somos?</span></h1>
+            </div>
         </div>
         <section>
-            <div>
-                <h1>¿Quienes somos?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore unde labore vero ratione eum
-                    recusandae tempora voluptatibus! Voluptas saepe reprehenderit optio libero repudiandae accusamus
-                    quam, nobis voluptatum deleniti aspernatur modi.</p>
+            <div class=" paragraph-about px-3 py-3 d-flex">
+                <p>En <b>Musical House</b>, somos una tienda de instrumentos musicales dedicada a inspirar y equipar a
+                    músicos
+                    de todos los niveles. Nuestro objetivo es ser el hogar donde artistas y entusiastas encuentran no
+                    solo productos de calidad, sino también la pasión por la música.</p>
+                <p>Ofrecemos una amplia selección de instrumentos, desde <b>guitarras</b> y <b>pianos</b> hasta
+                    <b>percusión,</b> todo cuidadosamente seleccionado para garantizar excelencia en cada acorde y
+                    ritmo. Aunque
+                    nuestra tienda es una muestra, simboliza un espacio donde la creatividad y la música toman vida.
+                </p>
             </div>
 
-            <div>
-                <button><a href="contact.html">Contact us</a></button>
-                <button><a href="location.html">Location</a></button>
+            <div class="buttons">
+                <a class="button-primary" href="contact.html">Contáctanos</a>
+                <a class="button-primary" href="location.html">Visítanos</a>
             </div>
         </section>
     </main>
