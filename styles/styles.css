@@ -115,7 +115,8 @@ main section .categories-container .categories {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  gap: 20px;
+  gap: 40px 20px;
+  flex-wrap: wrap;
 }
 main section .categories-container .categories a {
   text-decoration: none;
