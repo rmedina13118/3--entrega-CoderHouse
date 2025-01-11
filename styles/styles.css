@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .button-primary, main .banner .banner-content a.btn-warning, main section .featured-products .btn-warning, main section .container-video .btn-warning {
   margin-top: 30px;
@@ -11,6 +12,21 @@
 }
 .button-primary:hover, main .banner .banner-content a.btn-warning:hover, main section .featured-products .btn-warning:hover, main section .container-video .btn-warning:hover {
   transform: scale(1.1);
+}
+
+/*******************************global class**************************/
+.primary-color {
+  color: #FFAF32;
+}
+
+.text-shadow-sm {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  /* Sombra pequeña */
+}
+
+.text-shadow-md {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  /* Sombra mediana */
 }
 
 * {
@@ -258,6 +274,60 @@ main section .container-video .video-title .title-mayus {
 main section .container-video .btn-warning {
   padding: 12px 30px !important;
 }
+main section .form-contact {
+  margin: 40px auto;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  width: 80%;
+  border-radius: 40px;
+  box-shadow: 0px 10px 17px 0px rgba(0, 0, 0, 0.1);
+}
+main section .form-contact fieldset {
+  width: 100% !important;
+}
+main section .form-contact fieldset input {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  background: #fbfbfb;
+  box-shadow: inset 10px 10px 16px #e2e2e2, inset -10px -10px 16px #e2e2e2, inset 10px 10px 16px #ffffff;
+}
+main section .form-contact fieldset textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  background: #fbfbfb;
+  box-shadow: inset 10px 10px 16px #e2e2e2, inset -10px -10px 16px #e2e2e2, inset 10px 10px 16px #ffffff;
+}
+main section .form-contact a.button-primary, main section .form-contact .banner .banner-content a.btn-warning, main .banner .banner-content section .form-contact a.btn-warning, main section .form-contact .featured-products a.btn-warning, main section .featured-products .form-contact a.btn-warning, main section .form-contact .container-video a.btn-warning, main section .container-video .form-contact a.btn-warning {
+  padding: 5px 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+main section .button-wpp {
+  display: flex;
+  justify-content: center;
+}
+main section .button-wpp .button-primary, main section .button-wpp .banner .banner-content a.btn-warning, main .banner .banner-content section .button-wpp a.btn-warning, main section .button-wpp .featured-products .btn-warning, main section .featured-products .button-wpp .btn-warning, main section .button-wpp .container-video .btn-warning, main section .container-video .button-wpp .btn-warning {
+  padding: 5px 20px;
+  background-color: #25CC64 !important;
+  text-decoration: none !important;
+  margin: 0 5px;
+  cursor: pointer;
+}
+main section .button-wpp .button-primary img, main section .button-wpp .banner .banner-content a.btn-warning img, main .banner .banner-content section .button-wpp a.btn-warning img, main section .button-wpp .featured-products .btn-warning img, main section .featured-products .button-wpp .btn-warning img, main section .button-wpp .container-video .btn-warning img, main section .container-video .button-wpp .btn-warning img {
+  width: 25px;
+  margin: 5px;
+}
 
 main.about .banner .banner-about {
   width: 100%;
@@ -294,7 +364,7 @@ main.about section .buttons {
   padding: 0 16px;
 }
 main.about section .buttons .button-primary, main.about section .buttons .banner .banner-content a.btn-warning, main.about .banner .banner-content section .buttons a.btn-warning, main.about section .buttons .featured-products .btn-warning, main.about section .featured-products .buttons .btn-warning, main.about section .buttons .container-video .btn-warning, main.about section .container-video .buttons .btn-warning {
-  padding: 2px 20px;
+  padding: 5px 20px;
   text-decoration: none;
   margin: 20px 0;
 }
